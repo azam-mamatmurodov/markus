@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    MarkUs| {% trans 'Dashboard' %}
+{% endblock %}
+
+{% block content %}
+    <section class="wrapper">
+        {% include 'parts/main_header.html' %}
+        <section class="content">
+            <div class="gallery">
+                <div class="gallery_title">
+                    <div class="container">
+                        <div class="row">
+                            <h2>Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery_content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="gallery_function">
+                                <a href="#" class="add">Add</a>
+                                <a href="#" class="Change">Change</a>
+                            </div>
+                            <div class="gallery_items row">
+                                {% for file in files %}
+                                    <div class="col-sm-3">
+                                        <div class="gallery_image">
+                                            <a href="{{ file.file.url }}"
+                                               data-fancybox="group"
+                                               data-caption="MarkUs Gallery picture">zoom
+                                            </a>
+                                            <a href="#" class="delete">Delete</a>
+                                            <a href="#" class="hand-tool">Hand tool</a>
+                                            <img src="{{ file.file.url }}" alt="" />
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <div class="pagination_container">
+                                <ul class="pagination">
+                                    <li class="before">
+                                        <a href="#">before</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">3</a>
+                                    </li>
+                                    <li class="next">
+                                        <a href="#">next</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+{% endblock %}

@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load widget_tweaks %}
+
+{% block title %}
+MarkUs | Location configuration
+{% endblock %}
+
+{% block content %}
+<section class="wrapper">
+    {% include 'parts/main_header.html' %}
+    <section class="content">
+        <div class="dashboard account_configuration">
+            <div class="dashboard_title">
+                <div class="container">
+                    <div class="row">
+                        <h2>Location configuration</h2>
+                    </div>
+                </div>
+            </div>
+            {% include 'parts/messages.html' %}
+            <div class="dashboard_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <input id="pac-input" class="controls" type="text" placeholder="Search place">
+                            <div id="map" style="width: 100%; height: 500px;"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="title" style="text-align: center;">Set location </h4>
+                            <form action="" class="location_set_form form-horizontals" method="post">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <label for="latitude" class="col-sm-5 control-label">Latitude:</label>
+                                    <div class="col-sm-7">
+                                        <input id="latitude" required type="text" name="latitude" value="{{ company.location.latitude }}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="longitude" class="col-sm-5 control-label">Longitude:</label>
+                                    <div class="col-sm-7">
+                                        <input id="longitude" required type="text" name="longitude" value="{{ company.location.longitude }}">
+                                    </div>
+                                </div>
+                                <input type="submit" value="Save" class="btn btn-primary pull-right">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</section>
+{% endblock %}
+
+{% block css %}
+    <style>
+        .pac-controls label {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        #pac-input {
+            background-color: #fff;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 300;
+            margin-left: 12px;
+            padding: 0 11px 0 13px;
+            text-overflow: ellipsis;
+            width: 400px;
+        }
+        .form-horizontals .form-group {
+            margin: 5px;
+            padding: 13px;
+        }
+
+        .form-horizontals input[type="submit"]
+        {
+            margin-top: 5px;
+        }
+    </style>
+{% endblock %}
+
+{% block js %}
+
+    <script>
+
+    var markers = [];
+    var map;
+      function initAutocomplete() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: {{ company.location.latitude }}, lng: {{ company.location.longitude }} },
+          zoom: 9,
+          mapTypeId: 'roadmap'
+        });
+
+        // Create the search box and link it to the UI element.
+        var input = document.getElementById('pac-input');
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+            var marker = new google.maps.Marker({
+                map: map,
+                title: 'Test',
+                position: {lat: {{ company.location.latitude }}, lng: {{ company.location.longitude }} }
+            });
+            markers.push(marker);
+
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          }
+
+          // Clear out the old markers.
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+
+          // For each place, get the icon, name and location.
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+
+            var latitude = place.geometry.location.lat();
+            var longitude = place.geometry.location.lng();
+            $("#latitude").val(latitude);
+            $("#longitude").val(longitude);
+
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+              map: map,
+              title: place.name,
+              position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
+
+        google.maps.event.addListener(map, 'click', function(event) {
+            var latitude = event.latLng.lat();
+            var longitude = event.latLng.lng();
+            $("#latitude").val(latitude);
+            $("#longitude").val(longitude);
+            markers.forEach(function(marker) {
+                marker.setMap(null);
+            });
+            addMarker(event.latLng);
+            map.panTo(event.latLng);
+
+        });
+
+        function addMarker(location) {
+            var marker = new google.maps.Marker({
+              position: location,
+              map: map
+            });
+            markers.push(marker);
+        }
+      }
+
+    </script>
+    <script async defer type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyCd2b6Uypec_SgphkHeF4Pe4phMy51BSTQ&callback=initAutocomplete"></script>
+
+
+{% endblock %}

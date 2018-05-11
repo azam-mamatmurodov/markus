@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4184 -3063 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_19_11" data-name="Symbol 19 – 11" transform="translate(-4951 -3459)">
+    <g id="_121116" data-name="121116" transform="translate(741.215 409)">
+      <path id="Path_336" data-name="Path 336" class="cls-1" d="M59.483,2.4h-5.27V0H47.055V2.4h-5.27V6.194h17.7ZM48.952,1.9h3.365V2.4H48.952Z" transform="translate(0)"/>
+      <path id="Path_337" data-name="Path 337" class="cls-1" d="M77.456,133.455,77.814,128H62.769l1.2,18.33h7.216a8.176,8.176,0,0,1,6.269-12.874Z" transform="translate(-19.658 -119.91)"/>
+      <path id="Path_338" data-name="Path 338" class="cls-1" d="M208.64,244.141a6.284,6.284,0,1,0,6.285,6.284A6.292,6.292,0,0,0,208.64,244.141Zm3.424,8.368-1.341,1.341-2.083-2.083-2.083,2.083-1.341-1.341,2.083-2.083-2.083-2.083L206.556,247l2.083,2.083L210.723,247l1.341,1.341-2.083,2.083Z" transform="translate(-150.421 -228.71)"/>
+    </g>
+    <g id="Symbol_32_1" data-name="Symbol 32 – 1">
+      <g id="Ellipse_14" data-name="Ellipse 14" class="cls-2" transform="translate(767 396)">
+        <circle class="cls-3" cx="27" cy="27" r="27"/>
+        <circle class="cls-4" cx="27" cy="27" r="26"/>
+      </g>
+    </g>
+  </g>
+</svg>

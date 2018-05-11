@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ace51b59-25ed-4215-a784-15c6cabc6e81" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/context/custom_context.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/02/19/seo-fon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/02/19/wire2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/11760201_1659941137571769_263151806332074444_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180127_181548.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180127_182128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180127_182128_4my9dh8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180127_182128_AS89LBX.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180127_182128_dQJZjdr.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/20180312_234358_bDDWVtt.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/Lezginka-madina-madina_-_Музыка_-_Mover.uz.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/TQ7UqPU7c-M.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/12/photo_2017-05-19_16-11-54.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/12495088_547009055469042_6223437061985558142_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/134429925.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/2-20160224_183701-1024x674.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/24177174_1538933352827467_7420483656634749053_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/24993089_1544378952282907_7140976008129307987_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/27752596_1992157137716603_350477892483137218_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/27973939_1608374022615470_7689346225792012905_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/28058501_1606463656074436_780635816337339051_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/28276679_1578384148924022_7323586904249168927_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/28378932_1585084758253961_5805441817852856435_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/28872230_2044359215778327_3961735446521708544_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/28951989_1630335003687301_2415915689500999680_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29067393_2045461862334729_5294191613508059136_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29249406_2046319295582319_8220200962229272576_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29250151_1637606046293530_6312571377782095872_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29314523_2047444072136508_1021462760518582272_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29473065_1605860526176384_5676363299410929004_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/29473086_1641365239316348_2003321412852383744_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/54a0601b0e542.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/63288.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/77168.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/85545753.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/DdEAIRqS8pM.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/Z8wa27lYDHr8KA41dEtC9CL5P1cIUb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/a0165cc1421308f49df5bd26adb38cab.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/chocolate-milkshake-left.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/d4-irish-pub-cafe.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/gallery_1a55f70e27aa645076fc9ec9622d83c4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/22/interior.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/album/18/03/23/IMG_20180323_213147.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/avatars/leones-fondos-de-pantalla-hd-Fotosdelanaturaleza-4-1024x640.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/avatars/leones-fondos-de-pantalla-hd-Fotosdelanaturaleza-4-1024x640_JeFeTjc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/avatars/leones-fondos-de-pantalla-hd-Fotosdelanaturaleza-4-1024x640_sO5Ip2R.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/awesome-rain-wallpaper_0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/category/Screenshot_from_2018-02-24_20-22-44.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/10/11200828_842051312535943_7927402857533054437_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/11738127_853172718065971_4993462327244705572_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/15N78H7oUx4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/534475_322580274470861_1490533855_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/K9499be-W7k.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/K9499be-W7k_tSr0iJI.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/TQ7UqPU7c-M.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/TQ7UqPU7c-M_NddvFeU.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/VGjc50U.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/YgocJDVyqCU.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/lion.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/lion_epoCmYx.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/photo_2017-05-19_16-11-54.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/photo_2017-05-19_16-11-54_ozGokTX.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/photo_2017-05-19_16-11-54_pFbm3xO.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53_GYUXWGJ.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53_kzM7pnr.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53_mFXLYuF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53_rRMREdx.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/11/picture_2017-16-09_13-16-53_xFv8UEB.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/12/20180127_182128.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/12/awesome-rain-wallpaper_0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/12/awesome-rain-wallpaper_0_s5xWI7M.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/12004868_1713274448909951_3390472718939775206_n.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/13138777_1733579273522991_1365141412420318034_n.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/14211930_1788095171456135_1115104476677859034_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/15202689_1128914657204309_9222642090215117391_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/1920502_543730609079822_1822617510_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/28467704_1621320601255408_8470172313539312065_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20171226_154739.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20171226_154739_Lm9kh0s.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20180322_174334.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20180322_174350.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20180322_174412.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/22/IMG_20180322_174432.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/users/18/03/25/IMG_20180320_095017_308.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/альбом-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/альбом-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/альбома-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/payment/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/celery.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/tasks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/migrations/0002_auto_20180321_1834.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/tasks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/promotion/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/filters.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/pagination.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Application.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Format.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Merchant.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Order.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/PaycomException.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Request.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Response.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/Transaction.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/conf.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/conf.py.backup" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/conf.py.pro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/paycom/request_handle/CheckPerformTransaction.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/payments/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/permissions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/validators.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restapp/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/jquery.fancybox.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/design/Gallery@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/design/Notifications page@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/design/Notifications pop-up@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/design/Promote - search@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/design/Promote@2x.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/SourceSansPro-Bold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/SourceSansPro-Light.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/SourceSansPro-Regular.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/SourceSansPro-Semibold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/Logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/bottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/city.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ding.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/file.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/flag-new.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/flag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/ful-star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/hand-tool.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/open-arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/pagination.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/passIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/player.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/profile1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/profile2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/tick.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/trash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/userIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/ReactDOM.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-2.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.fancybox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/lodash.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/react.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/react.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/newicons/newicons/Promote.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/newicons/newicons/delete.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/newicons/newicons/drag.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/admin/notifications/change_list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/admin/notifications/notifications_send.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/location.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_change_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_change_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_complete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_confirm.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_email.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/profile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/profile_password_change.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/accounts/week_time.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/gallery/delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/gallery/gallery.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/gallery/gallery_add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/notifications/notifications.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/notifications/notifications_detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/payment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_notifications.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_notifications_history.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_on_category.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_on_category_history.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_on_search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/promote_on_search_history.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/promotions/tabs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/reviews.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/parts/main_header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/parts/messages.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/parts/paginator.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/managers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20180131_1203.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20180131_1206.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0004_auto_20180205_1214.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0005_category.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0006_auto_20180209_1414.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0007_company_user.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0008_auto_20180216_1211.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0009_auto_20180216_1211.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0010_auto_20180219_0034.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0011_auto_20180219_0035.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0012_album_image_review.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0013_auto_20180219_0151.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0014_auto_20180219_0154.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0015_auto_20180220_0843.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0016_auto_20180220_2230.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0017_auto_20180220_2233.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0018_auto_20180221_1506.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0019_category_icon.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0020_auto_20180222_1225.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0021_auto_20180222_1226.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0022_auto_20180222_1227.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0023_auto_20180222_1229.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0024_review_company.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0025_auto_20180223_1802.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0026_bookmarks.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0027_review_rate.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0028_auto_20180306_1111.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0029_auto_20180309_1947.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0030_auto_20180309_1950.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0031_user_avatar.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0032_auto_20180310_1912.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0033_auto_20180311_1316.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0034_auto_20180311_1322.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0035_auto_20180311_1357.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0036_company_position.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0037_remove_company_location.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0038_auto_20180312_1428.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0039_auto_20180312_1431.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0040_reviewlikes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0041_auto_20180312_1837.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0042_reviewlikedislike_review.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0043_recentlyviewed.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0044_auto_20180314_1506.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0045_notifications.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0046_notifications_notification_sender.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0047_auto_20180317_1159.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0048_auto_20180317_1216.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0049_auto_20180321_1834.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0050_auto_20180321_1839.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/0051_weektime_is_default.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/users/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/uwsgi.ini" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="70" column="47" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restapp/payments/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restapp/payments/paycom/Application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restapp/payments/paycom/Request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exclude</find>
+      <find>distance_from</find>
+      <find>device</find>
+      <find>azam</find>
+      <find>fc</find>
+      <find>Promote</find>
+      <find>promoted/related/</find>
+      <find>notifications.html</find>
+      <find>call</find>
+      <find>Company.ob</find>
+      <find>RawSQL</find>
+      <find>apps</find>
+      <find>get_model</find>
+      <find>verfication_code</find>
+      <find>verification_code</find>
+      <find>revie</find>
+      <find>get_full_name</find>
+      <find>pla</find>
+      <find>video</find>
+      <find>gallery_video</find>
+      <find>states</find>
+      <find>business_owner</find>
+      <find>djcelery</find>
+      <find>Company</find>
+      <find>avatars</find>
+      <find>choices</find>
+      <find>send_notifications_2_users</find>
+      <find>logou</find>
+      <find>yelp</find>
+      <find>dst</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>control-label</replace>
+      <replace>&quot;&quot;</replace>
+      <replace>latest_responded_reviews</replace>
+      <replace>src=&quot;{% static 'images/$1' %}&quot;</replace>
+      <replace>&quot;{% static 'images/$1' %}&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../../may/lib/python3.6/site-packages/rest_framework</dir>
+      <dir>$PROJECT_DIR$/users</dir>
+      <dir>$PROJECT_DIR$/templates</dir>
+      <dir>$PROJECT_DIR$/main</dir>
+      <dir>$PROJECT_DIR$/templates/pages/accounts/password</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project/urls.py" />
+        <option value="$PROJECT_DIR$/restapp/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/location.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/profile.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/profile_password_change.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/week_time.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_change_done.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_change_form.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_reset.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_complete.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_confirm.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_done.html" />
+        <option value="$PROJECT_DIR$/templates/pages/accounts/password/password_reset_form.html" />
+        <option value="$PROJECT_DIR$/templates/pages/notifications/notifications.html" />
+        <option value="$PROJECT_DIR$/templates/pages/notifications/notifications_detail.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/notifications.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_notifications.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_on_category.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_on_search.html" />
+        <option value="$PROJECT_DIR$/templates/pages/login.html" />
+        <option value="$PROJECT_DIR$/templates/pages/profile.html" />
+        <option value="$PROJECT_DIR$/templates/pages/register.html" />
+        <option value="$PROJECT_DIR$/templates/pages/reviews.html" />
+        <option value="$PROJECT_DIR$/templates/pages/gallery/gallery_add.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_on_category_history.html" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_on_search_history.html" />
+        <option value="$PROJECT_DIR$/promotion/models.py" />
+        <option value="$PROJECT_DIR$/templates/pages/promotions/promote_notifications_history.html" />
+        <option value="&lt;b06f8e1f-61d7-43b8-b099-3d16d68b2e8d&gt;/restapp/payments/views.py" />
+        <option value="&lt;b06f8e1f-61d7-43b8-b099-3d16d68b2e8d&gt;/media/request.txt" />
+        <option value="$PROJECT_DIR$/templates/pages/payment.html" />
+        <option value="$PROJECT_DIR$/templates/pages/gallery/delete.html" />
+        <option value="$PROJECT_DIR$/templates/pages/gallery/gallery.html" />
+        <option value="$PROJECT_DIR$/restapp/views.py" />
+        <option value="$PROJECT_DIR$/restapp/serializers.py" />
+        <option value="$PROJECT_DIR$/users/managers.py" />
+        <option value="$PROJECT_DIR$/promotion/views.py" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/project/settings.py" />
+        <option value="$PROJECT_DIR$/users/models.py" />
+        <option value="$PROJECT_DIR$/templates/admin/products/change_list.html" />
+        <option value="$PROJECT_DIR$/templates/admin/products/products_export.html" />
+        <option value="$PROJECT_DIR$/templates/admin/notifications/change_list.html" />
+        <option value="$PROJECT_DIR$/users/forms.py" />
+        <option value="$PROJECT_DIR$/templates/admin/notifications/notifications_send.html" />
+        <option value="$PROJECT_DIR$/promotion/tasks.py" />
+        <option value="$PROJECT_DIR$/templates/parts/main_header.html" />
+        <option value="$PROJECT_DIR$/users/admin.py" />
+        <option value="$PROJECT_DIR$/project/wsgi.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="restapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../may" />
+    <property name="SearchEverywhereHistoryKey" value="settings&#9;null&#9;null&#10;p/views.&#9;FILE&#9;file:///var/www/django_projects/markus/project/promotion/views.py&#10;sty&#9;FILE&#9;file:///var/www/django_projects/markus/project/static/css/style.css&#10;sett&#9;FILE&#9;file:///var/www/django_projects/markus/project/project/settings.py&#10;style.&#9;FILE&#9;file:///var/www/django_projects/markus/project/static/css/style.css&#10;style&#9;FILE&#9;file:///var/www/django_projects/markus/project/static/css/style.css&#10;setti&#9;FILE&#9;file:///var/www/django_projects/markus/project/project/settings.py&#10;setting&#9;FILE&#9;file:///var/www/django_projects/markus/project/project/settings.py&#10;custom&#9;FILE&#9;file:///var/www/django_projects/markus/project/static/css/custom.css" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/restapp/payments" />
+      <recent name="$PROJECT_DIR$/templates/pages/accounts/password" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates/pages/accounts/reset" />
+      <recent name="$PROJECT_DIR$/templates/pages/accounts" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$/templates/pages/notifications" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/998389471/avatar/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Pictures/maps.png" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/998389471/avatar/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="image" />
+                <option name="value" value="maps.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Pictures/maps.png" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/998389471/avatar/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389471" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Pictures/maps.png" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/998389471/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389471" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/create/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389471" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/create/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389478" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/create/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389478" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/create/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389478" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="null" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients/create/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="phone" />
+                <option name="value" value="998389478" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="first_name" />
+                <option name="value" value="A'zam" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="last_name" />
+                <option name="value" value="Mamatmurodov" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="date_of_birthday" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gender" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://markus.dst.uz" />
+          <option name="urlPath" value="/api/v1/clients" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="project" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ace51b59-25ed-4215-a784-15c6cabc6e81" name="Default" comment="" />
+      <created>1518161327769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518161327769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="35" y="25" width="1331" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792792" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5273141" order="7" side_tool="true" content_ui="tabs" x="0" y="258" width="1366" height="253" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.4491654" order="2" side_tool="false" content_ui="tabs" x="19" y="307" width="1328" height="155" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4599018" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7430442" sideWeight="0.48330805" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44193298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941543" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32931036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46972176" sideWeight="0.47723824" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27996966" sideWeight="0.50835323" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.47268587" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8828829" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792792" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5273141" order="7" side_tool="true" content_ui="tabs" x="0" y="258" width="1366" height="253" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.47268587" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8828829" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.4491654" order="2" side_tool="false" content_ui="tabs" x="19" y="307" width="1328" height="155" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4599018" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43535188" sideWeight="0.48330805" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44193298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16601714" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32931036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47086614" sideWeight="0.47723824" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27996966" sideWeight="0.50835323" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="268" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>self.model.objects.filter(company__user=self.request.user,
+                                         promotion_type__promote_type='show_in_search').order_by('-pk').first().get_action()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.model.objects.filter(company__user=self.request.user,
+                                         promotion_type__promote_type='show_in_search').order_by('-pk').first()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.model.objects.filter(company__user=self.request.user,
+                                         promotion_type__promote_type='show_in_search').order_by('-pk')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.FILES</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>user_type</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_day_available_companies_queryset.distinct('company').values_list('company', flat=True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_day_available_companies_queryset.distinct('company').values_list('company')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_day_available_companies_queryset.distinct('company')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_day_available_companies_queryset</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WeekTime.objects.exclude(day=current_week_day).annotate()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WeekTime.objects.exclude(day=current_week_day)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_week_day</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>unknown_companies</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WeekTime.objects.exclude(day='sunday', opening_time__isnull=False, closing_time__isnull=False).values_list('company', flat=True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/pages/promotions/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/notifications.html" />
+    <entry file="file://$PROJECT_DIR$/templates/pages/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/gallery/gallery_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/template/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="910" column="0" lean-forward="false" selection-start-line="910" selection-start-column="0" selection-end-line="910" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/promotions/promote_on_search_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/promotions/promote_on_category_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/promotions/promote_notifications_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/accounts/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="332" column="29" lean-forward="true" selection-start-line="332" selection-start-column="29" selection-end-line="332" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="246" column="46" lean-forward="false" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="427" column="30" lean-forward="false" selection-start-line="427" selection-start-column="30" selection-end-line="427" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/gallery.html" />
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="3848" column="14" lean-forward="false" selection-start-line="3848" selection-start-column="14" selection-end-line="3848" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/gallery/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/gallery/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="125" column="24" lean-forward="false" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="163" column="49" lean-forward="false" selection-start-line="163" selection-start-column="49" selection-end-line="163" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/djcelery/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6697">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/rest_framework/authtoken/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/rest_framework/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/notifications/change_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="222" column="8" lean-forward="false" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="171" column="45" lean-forward="false" selection-start-line="171" selection-start-column="45" selection-end-line="171" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/notifications/notifications_send.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="109" column="4" lean-forward="false" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parts/main_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="171" column="88" lean-forward="true" selection-start-line="171" selection-start-column="88" selection-end-line="171" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2934">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="70" column="47" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/payments/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/payments/paycom/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapp/payments/paycom/Request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="52" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

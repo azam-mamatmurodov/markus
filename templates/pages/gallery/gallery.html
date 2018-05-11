@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    MarkUs | {% trans 'Gallery' %}
+{% endblock %}
+
+{% block content %}
+    <section class="wrapper">
+        {% include 'parts/main_header.html' %}
+        <section class="content">
+            <div class="gallery">
+                <div class="gallery_title">
+                    <div class="container">
+                        <div class="row">
+                            <h2>Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery_content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="gallery_function">
+                                <a href="{% url 'users:company_gallery_add' %}" class="add">Add</a>
+                            </div>
+                            <div class="gallery_items row">
+                                {% for file in files %}
+                                    {% if file is not None %}
+                                        <div class="col-sm-3">
+                                            {% if file.is_image %}
+                                                <div class="gallery_image">
+                                                    <a href="{{ file.file.url }}"
+                                                       data-fancybox="group"
+                                                       data-caption="MarkUs Gallery picture">zoom
+                                                    </a>
+                                                    <a href="{% url 'users:company_gallery_delete' file_id=file.id %}"
+                                                       class="delete">Delete</a>
+                                                    <img src="{{ file.file.url }}" alt="" />
+                                                </div>
+                                            {% else %}
+{#                                                <div class="gallery_video">#}
+{#                                                    <div>#}
+{#                                                        <video class="video_item" width="100%" height="190" >#}
+{#                                                            <source src="{{ file.file.url }}" type="video/mp4">#}
+{#                                                        </video>#}
+{#                                                        <div class="video_actions">#}
+{#                                                            <a href="{{ file.file.url }}"#}
+{#                                                       data-fancybox="group"#}
+{#                                                       data-caption="MarkUs Gallery picture">zoom#}
+{#                                                    </a>#}
+{#                                                    <a href="{% url 'users:company_gallery_delete' file_id=file.id %}"#}
+{#                                                       class="delete">Delete</a>#}
+{#                                                        </div>#}
+{#                                                        <div class="video_popup_wrapper">#}
+{#                                                            <div class="gallery_video_popup ">#}
+{#                                                                <span class="close">x</span>#}
+{#                                                                <video width="700" height="auto" controls>#}
+{#                                                                    <source src="{{ file.file.url }}" type="video/mp4">#}
+{#                                                                </video>#}
+{#                                                            </div>#}
+{#                                                        </div>#}
+{#                                                    </div>#}
+{#                                                </div>#}
+                                                 <div class="gallery_image">
+                                                    <a class="player_open" href="{{ file.file.url }}">zoom</a>
+                                                    <a href="{% url 'users:company_gallery_delete' file_id=file.id %}"
+                                                       class="delete">Delete</a>
+                                                    <video class="video_item" width="100%" height="190" >
+                                                        <source src="{{ file.file.url }}" type="video/mp4">
+                                                    </video>
+                                                    <div class="video_popup_wrapper">
+                                                        <div class="gallery_video_popup ">
+                                                            <span class="close">x</span>
+                                                            <video width="700" height="auto" controls>
+                                                                <source src="{{ file.file.url }}" type="video/mp4">
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
+                                {% empty %}
+                                    <div class="col-sm-3">
+                                        You have not files yet
+                                    </div>
+
+                                {% endfor %}
+                            </div>
+                            {% include 'parts/paginator.html' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+{% endblock %}
+{% block js %}
+    <script>
+        $(document).ready(function () {
+           $('.player_open').click(function (e) {
+               e.preventDefault();
+               var gallery_popup = $(this).siblings('.video_popup_wrapper').children('.gallery_video_popup');
+               gallery_popup.addClass('active');
+               gallery_popup.find('video').get(0).play();
+               console.log($(this))
+           });
+            $('.gallery_video_popup .close').click(function () {
+                $(this).siblings('video').get(0).pause();
+                $(this).parent().removeClass('active');
+            });
+        });
+    </script>
+{% endblock %}
+{% block css %}
+    <style>
+
+    .gallery_image a.player_open {
+        content: "";
+        width: 58px;
+        height: 60px;
+        position: absolute;
+        background-image: url({% static 'images/player.png' %});
+        background-size: 52px 52px;
+        z-index: 1;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        top: 75px;
+        visibility: hidden;
+        transition: .5s;
+        opacity:  0;
+        text-indent: -1000px;
+        right:  60px;
+    }
+    .gallery_image:hover a.player_open {
+        opacity: 1;
+        visibility: visible;
+        transition: .4s;
+        background-size: 55px !important;
+    }
+
+    </style>
+{% endblock %}

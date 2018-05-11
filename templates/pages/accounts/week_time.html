@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load widget_tweaks %}
+
+{% block title %}
+    MarkUs | Weektime configuration
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css">
+<section class="wrapper">
+    {% include 'parts/main_header.html' %}
+    <section class="content">
+        <div class="dashboard account_configuration">
+            <div class="dashboard_title">
+                <div class="container">
+                    <div class="row">
+                        <h2>Weektime configuration</h2>
+                    </div>
+                </div>
+            </div>
+            {% include 'parts/messages.html' %}
+            <div class="dashboard_content">
+                <div class="container">
+                    <div class="row">
+                        <form  autocomplete="off" method="post" action="" class="form-horizontal" enctype="multipart/form-data">
+                            <input type="hidden" value="submit" name="action">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Monday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="monday_open"
+                                                id="monday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ monday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="monday_close"
+                                                id="monday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ monday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Tuesday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="tuesday_open"
+                                                id="tuesday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ tuesday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="tuesday_close"
+                                                id="tuesday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ tuesday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Wednesday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="wednesday_open"
+                                                id="wednesday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ wednesday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="wednesday_close"
+                                                id="wednesday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ wednesday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Thursday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="thursday_open"
+                                                id="thursday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ thursday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="thursday_close"
+                                                id="thursday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ thursday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Friday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="friday_open"
+                                                id="friday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ friday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="friday_close"
+                                                id="friday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ friday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Saturday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="saturday_open"
+                                                id="saturday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ saturday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="saturday_close"
+                                                id="saturday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ saturday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">
+                                    {% trans 'Sunday' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="sunday_open"
+                                                id="sunday_open"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ sunday.opening_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                    <div class="input-group bootstrap-timepicker timepicker">
+                                        <input
+                                                name="sunday_close"
+                                                id="sunday_close"
+                                                type="text"
+                                                class="weektimer form-control input-small"
+                                                value="{{ sunday.closing_time|time:'H:i' }}"
+                                                readonly
+                                        >
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary pull-right">
+                                    {% trans 'Save' %}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</section>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.weektimer').timepicker({
+            showMeridian: false,
+            minuteStep: 1
+        });
+    })
+</script>
+
+{% endblock %}

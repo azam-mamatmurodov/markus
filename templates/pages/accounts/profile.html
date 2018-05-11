@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load widget_tweaks %}
+
+{% block title %}
+MarkUs | Account settings
+{% endblock %}
+
+{% block content %}
+<section class="wrapper">
+    {% include 'parts/main_header.html' %}
+    <section class="content">
+        <div class="dashboard account_configuration">
+            <div class="dashboard_title">
+                <div class="container">
+                    <div class="row">
+                        <h2>Account settings</h2>
+                    </div>
+                </div>
+            </div>
+            {% include 'parts/messages.html' %}
+            <div class="dashboard_content">
+
+                <div class="container">
+                    <a class="set_week_time buttons" href="{% url 'users:profile_week_time_page' %}">
+                        Set Time graphic
+                    </a>
+                    <a class="set_location buttons" href="{% url 'users:profile_location_page' %}">
+                        Set location
+                    </a>
+                    <a href="{% url 'users:profile_password_page' %}" class="change_password buttons">
+                        Change password
+                    </a>
+                    <div class="row">
+                        <form  autocomplete="off" method="post" action="" class="form-horizontal" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="company_name" class="col-sm-2 control-label">
+                                    {% trans 'Company Logo' %}:
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.avatar.errors %}
+                                        {% render_field form.avatar class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.avatar.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.avatar class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="company_name" class="col-sm-2 control-label">
+                                    {% trans 'Company name' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.company_name.errors %}
+                                        {% render_field form.company_name class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.company_name.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.company_name class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="category" class="col-sm-2 control-label">
+                                    {% trans 'Category' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.category.errors %}
+                                        {% render_field form.category class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.category.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.category class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="description" class="col-sm-2 control-label">
+                                    {% trans 'Description' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.description.errors %}
+                                        {% render_field form.description class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.description.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.description class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address" class="col-sm-2 control-label">
+                                    {% trans 'Address' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.address.errors %}
+                                        {% render_field form.address class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.address.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.address class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="call_center" class="col-sm-2 control-label">
+                                    {% trans 'Call center' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.call_center.errors %}
+                                        {% render_field form.call_center class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.call_center.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.call_center class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="website" class="col-sm-2 control-label">
+                                    {% trans 'Website' %}
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.website.errors %}
+                                        {% render_field form.website class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.website.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.website class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">
+                                    {% trans 'Email' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.email.errors %}
+                                        {% render_field form.email class='form-control has-error' value=user.email %}
+                                        <div class="error-block">
+                                            {{ form.email.errors }}
+                                        </div>
+                                    {% else %}
+                                        {% render_field form.email class='form-control' value=user.email %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="passwd" class="col-sm-2 control-label">
+                                    {% trans 'Password' %}:<span class="red"> *</span>
+                                </label>
+                                <div class="col-sm-10">
+                                    {% if form.passwd.errors %}
+                                        {% render_field form.passwd class='form-control has-error' %}
+                                        <div class="error-block">
+                                            {{ form.passwd.errors }}
+                                        </div>
+                                    {% else %}
+                                         {% render_field form.passwd class='form-control' %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary pull-right">
+                                    {% trans 'Update' %}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+{% endblock %}

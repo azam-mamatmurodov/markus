@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    MarkUs | {% trans 'Gallery delete' %}
+{% endblock %}
+
+{% block content %}
+    <section class="wrapper">
+        {% include 'parts/main_header.html' %}
+        <section class="content">
+            <div class="gallery">
+                <div class="gallery_title">
+                    <div class="container">
+                        <div class="row">
+                            <h2>Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery_content gallery_delete">
+                    <div class="container">
+                        <div class="row">
+                            <div class="gallery_function">
+                                <a href="{% url 'users:company_gallery_add' %}" class="add">Add</a>
+                            </div>
+                            <div class="files">
+                                {% if file.is_image %}
+                                    <img src="{{ file.file.url }}" alt="">
+                                {% else %}
+                                    <video src="{{ file.file.url }}"  width="700" height="auto" ></video>
+                                {% endif %}
+                            </div>
+                            <div class="gallery-items">
+                                <form action="" method="POST" id="delete_form">
+                                    <input type="hidden" name="action">
+                                    {% csrf_token %}
+                                    <input type="submit" class="btn btn-primary" value="{% trans 'Delete' %}">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+{% endblock %}

@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+MarkUs | Login
+{% endblock %}
+
+{% block content %}
+<script>
+    function page_redirect()
+    {
+        location.pathname = "{% url 'users:register_page' %}";
+        return false;
+    } 
+</script>
+    <div class="globalWrapper sign_in_page">
+        <section class="formLeft col-sm-6">
+            <div class="formLeftImg">
+                <img src="{% static 'images/city.jpg' %}" al="">
+            </div>
+            <div class="leftTitle signIn">
+                <div class="signInLeftBlock">
+                    <h1>Welcome to MarkUs</h1>
+                    <p>
+                        Mark Us is a website and mobile app that connects people with great local businesses and business owners with their communities.
+                        The customers of Mark Us can easily find local businesses within Uzbekistan, read or leave reviews for them.
+                        Businesses can use the Mark Us website to place and promote themselves!
+                    </p>
+                    <a href="{% url 'users:register_page' %}">
+                        {% trans 'Create account' %}
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="formRight col-sm-6">
+            <div class="logo">
+                <img src="{% static 'images/Logo.png' %}" alt="">
+            </div>
+            <div class="formTitle signIn">
+                <h3>MarkUs</h3>
+                <p>{% trans 'Welcome back! Please login to your account' %}.</p>
+            </div>
+            <form class="signInForm" action="{% url 'users:login_page' %}" method="post">
+                {% csrf_token %}
+                <div class="form-item signIn">
+                    <div class="input-group prefix">
+                        <span class="input-group-addon">+998</span>
+                        <input
+                                type="text"
+                                name="{{ form.username.name }}"
+                                placeholder="{% trans 'Phone' %}"
+                                pattern="[0-9]{9}"
+                                size="9"
+                                maxlength="9"
+                        >
+                    </div>
+                </div>
+                {% if form.username.errors %}
+                    <div class="help-block">
+                        {{ form.username.errors }}
+                    </div>
+                {% endif %}
+                <div class="form-item signIn">
+                    <input type="password" name="{{ form.passwd.name }}" placeholder="{% trans 'Password' %}">
+                </div>
+                {% if form.passwd.errors %}
+                    <div class="help-block">
+                        {{ form.passwd.errors }}
+                    </div>
+                {% endif %}
+                <div class="formSaveandForgot clearfix">
+                    <div class="formSave">
+                        <input type="checkbox" name="" placeholder="Remember me">
+                        <label>{% trans 'Remember me' %}</label>
+                    </div>
+                    <div class="formForgot">
+                        <a href="{% url 'users:password_reset' %}">{% trans 'Forgot password' %}</a>
+                    </div>
+                </div>
+                <div class="form-actions signIn">
+                    <input type="submit" name="" value="{% trans 'Login' %}">
+                    <input id="sign_up_page_redirect" type="button" onclick="page_redirect()" value="{% trans 'Sign up' %}">
+                </div>
+            </form>
+        </section>
+    </div>
+
+{% endblock %}
