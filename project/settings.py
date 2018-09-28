@@ -218,7 +218,7 @@ EMAIL_PORT = 587
 
 EMAIL_HOST_USER = 'noreply@markus.uz'
 DEFAULT_FROM_EMAIL = 'noreply@markus.uz'
-EMAIL_HOST_PASSWORD = '$Q8xIGgOyyh1'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 EMAIL_BACKEND = 'djcelery_email.backends.CeleryEmailBackend'
